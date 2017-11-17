@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <!-- Add listener to TestNG -->
+    <listeners>
+      <listener class-name="testReport.ExtentReport"/>
+    </listeners>
+    <test name="Jira Home Page">
+        <classes>
+            <class name="com.RestApi.www.ApiTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

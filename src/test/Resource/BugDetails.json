@@ -1,0 +1,12 @@
+{
+  "fields":{
+    "project":{
+      "key":"LGA"
+    },
+    "summary":"This Bug is written from Rest Assured",
+    "description":"Creating this bug from Rest Assured",
+    "issuetype":{
+      "name":"Bug"
+    }
+  }
+}
